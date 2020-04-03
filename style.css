@@ -3,6 +3,12 @@
   padding: 0;
 
 }
+Html, body {
+  background-image: "oregon.jpeg";
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .header
 {
   height: 100vh;
@@ -65,4 +71,10 @@ table, th, td {
   body {
     background-color: lightblue;
   }
+}
+.description
+{
+  font-size: 32px;
+  font-family: Impact, Charcoal, sans-serif;
+  color: darkgreen;
 }
